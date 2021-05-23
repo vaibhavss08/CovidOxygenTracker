@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "436931584569",
+    "project_id": "covid-oxygen-tracker",
+    "storage_bucket": "covid-oxygen-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436931584569:android:b6ab071e5b84c55ccc63e8",
+        "android_client_info": {
+          "package_name": "com.example.covidoxygentracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436931584569-k219isvnebdem7tonmn7tk82qsf173la.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3WzBiW1SHEB-DPIWUievw7ota9RXOJ8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436931584569-k219isvnebdem7tonmn7tk82qsf173la.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

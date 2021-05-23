@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/supply_available"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:textSize="25dp"
+        android:text="Available at source: "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/state_allot"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:textSize="25dp"
+        android:text="Required : "/>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Enter amount to be allotted : "
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="5"
+        android:layout_gravity="center_horizontal"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonallot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Allot"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>

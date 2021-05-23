@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.covidoxygentracker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CovidOxygenTracker">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StateAnalysis"></activity>
+        <activity android:name=".SignInActivity"></activity>
+        <activity android:name=".Country"></activity>
+        <activity android:name=".AddSource"></activity>
+        <activity android:name=".ParticularState"></activity>
+        <activity android:name=".ViewSource"></activity>
+        <activity android:name=".allot_oxygen"></activity>
+        <activity android:name=".allottostate"></activity>
+        <activity android:name=".password_reset"></activity>
+    </application>
+
+</manifest>
